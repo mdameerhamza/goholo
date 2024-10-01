@@ -1,0 +1,37 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+assets/files/hologram/1893962032Aaron_Finch.png
+assets/files/hologram/28739015Aaron_Finch.png
+assets/images/locations/1159879991Aaron_Finch.png
+assets/images/locations/138765170Aaron_Finch.png
+assets/images/locations/888922277Aaron_Finch.png
+assets/images/locations/93147298Aaron_Finch.png
